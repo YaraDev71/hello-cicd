@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP DevOps Jenkins</title>
+    <title>TP DevOps CodePipeline</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,11 +35,13 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hello World !</h1>
-        <p>Ceci était le TP de DevOps Jenkins (déploiement, installation Tomcat + Maven build)</p>
+        <h1>Hello World ! CI/CD Pipeline Automatique</h1>
+        <p>Ceci était le TP de DevOps AWS (AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline, AWS CodeCommit)</p>
         <p>Réalisé par <strong>Brahima Mamadou Yaranagore</strong></p>
         <p>Étudiant en Master 2 Génie Logiciel à l'Université Dakar Bourguiba (UDB)</p>
         <p>Sous la supervision de <strong>M. LO</strong></p>
+        <p>Déployé automatiquement via <strong>AWS CodePipeline</strong></p>
+        <p>Source : GitHub → CodeDeploy → EC2</p>
     </div>
 </body>
 </html>
